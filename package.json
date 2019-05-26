@@ -13,7 +13,9 @@
     "@babel/preset-env": "7.4.5",
     "gulp": "4.0.2",
     "gulp-babel": "8.0.0-beta.2",
-    "gulp-rimraf": "^0.2.2",
+    "gulp-dot-flatten": "^1.1.1",
+    "gulp-rimraf": "0.2.2",
+    "gulp-screeps": "1.0.8",
     "gulp-watch": "5.0.1"
   }
 }
