@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const babel = require('gulp-babel');
 const rimraf = require('gulp-rimraf');
 const flatten = require('gulp-dot-flatten');
-const publish = require('gulp-screeps');
+const screeps = require('gulp-screeps');
+const credentials_local = require('./credentials_local');
 
 const scriptSelectorSrc = 'src/**/*.js';
 const scriptSelectorDist = 'dist/**/*.js';
@@ -23,7 +24,7 @@ gulp.task('distribute', (done) => {
 
 gulp.task('publish_local', (done) => {
     gulp.src(scriptSelectorDist)
-        .pipe(publish());
+        .pipe(screeps(credentials_local));
     done();
 });
 
