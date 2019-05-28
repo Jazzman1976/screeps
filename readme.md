@@ -32,6 +32,10 @@ private server.
 This requires the [**screepsmod.auth**](https://github.com/ScreepsMods/screepsmod-auth)
 to be installed on the server.
 
+Before my example will work, you have to set up a user password as described in the 
+*"screepsmod.auth"* docs. And I have created a branch named *"master"* in my screeps 
+game as target branch for my publish task in addition.
+
 In addition I use the *"credentials_local.js.example"* file to store my credentials
 outside the git repository. Any *"credential_\*.js"* file is ignored by my .gitignore file. 
 Set the properties according to your account and don't forget to remove the *".example"* suffix.
