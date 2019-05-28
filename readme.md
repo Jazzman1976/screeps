@@ -9,7 +9,9 @@ I also added a code suggestion file for vs code in the src folder.
 
 ## How to use
 
-Get familiar with gulp and gulp task executions.
+Get familiar with nodeJS, Gulp and task executions.
+
+run **"npm install"** to install needed dependencies.
 
 run **"gulp"** to delete all \*.js files in the dist folder, compile all of 
 your ES6 src/\*.js files into ES5 \*.js files and distribute them to the dist
@@ -32,3 +34,4 @@ to be installed on the server.
 
 In addition I use the *"credentials_local.js.example"* file to store my credentials
 outside the git repository. Any *"credential_\*.js"* file is ignored by my .gitignore file. 
+Set the properties according to your account and don't forget to remove the *".example"* suffix.
